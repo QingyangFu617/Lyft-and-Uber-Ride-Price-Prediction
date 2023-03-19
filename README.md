@@ -1,10 +1,7 @@
 # Lyft-and-Uber-Ride-Price-Prediction
-This is a multiple linear regression analysis project using R. The purpose of our study is to predict the price of each ride based on given conditions such as time, type of vehicle selected, and weather indexes. 
+This is a multiple linear regression analysis project using R. The purpose of our study is to predict the price of each ride based on given conditions such as time, type of vehicle selected, and weather indexes.  
 
-In this project, the dataset we have selected contains more than 10000 records of rides. Then, we decided to reduce our dataset into a randomly selected subset with 4042 observations. Within the dataset, we have one target variable, price, and 58 predictors.
-
-We choose to construct multivariate linear models for this dataset due to the model’s ability to explain the relationship between one response variable and many predictor variables. As figure 1 shows that distance has a linear relationship with the target variable price.
-![1 intro : linear relationship](https://user-images.githubusercontent.com/100692852/223024192-c3ec14ea-2fbb-471c-97c3-005f0e6927f6.png)
+In this project, the dataset we have selected contains more than 10000 records of rides. Then, we decided to reduce our dataset into a randomly selected subset with 4042 observations. Within the dataset, we have one target variable, price, and 58 predictors.We choose to construct multivariate linear models for this dataset due to the model’s ability to explain the relationship between one response variable and many predictor variables.  
 
 This study aims to construct the optimal multivariate linear regression model to predict each ride’s price, and we build our models from different selection algorithms. Forward, backward, and bidirectional selection algorithms will be utilized to generate several models for comparisons. Within the selection algorithms, we also utilized various measurements to select models, such as AIC and BIC. After building the models, we choose our best and final model based on the lowest RMSE from cross-validation and the highest score of adjusted R 2 to avoid multicollinearity. 
 
